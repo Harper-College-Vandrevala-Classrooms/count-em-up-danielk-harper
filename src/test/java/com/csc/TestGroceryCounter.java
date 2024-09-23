@@ -32,7 +32,6 @@ public class TestGroceryCounter {
     for (int i = 0; i < 11; i++) {
       c.hundreths();
     }
-    
     assertEquals("$0.11", c.total());
     assertEquals(0, c.number_of_overflows());
   }
